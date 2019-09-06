@@ -11,7 +11,7 @@ public class ProxyFactory {
     //目标对象
     private Object tearget;
 
-    public ProxyFactory(ITearcherDao tearget) {
+    public ProxyFactory(Object tearget) {
         this.tearget = tearget;
     }
 
