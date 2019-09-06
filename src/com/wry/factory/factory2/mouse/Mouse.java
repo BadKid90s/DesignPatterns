@@ -1,4 +1,4 @@
-package com.wry.factory.simplefactory2.mouse;
+package com.wry.factory.factory2.mouse;
 
 /**
  * 抽象鼠标类

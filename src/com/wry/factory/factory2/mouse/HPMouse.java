@@ -1,9 +1,9 @@
-package com.wry.factory.simplefactory2.mouse;
+package com.wry.factory.factory2.mouse;
 
 /**
  * 惠普的鼠标
  */
-public class HPMouse extends Mouse{
+public class HPMouse extends Mouse {
 
     @Override
    public void sayHi() {

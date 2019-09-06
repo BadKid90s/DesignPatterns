@@ -1,22 +1,22 @@
-package com.wry.builder;
+package com.wry.builder.type1;
 
-public class HightHouseBuilder implements IHouseBuilder {
+public class CommonHouseBuilder implements IHouseBuilder {
     House house = new House();
 
     @Override
     public void buildBasic() {
-        house.setName("高楼");
+        house.setName("普通房子");
     }
 
     @Override
     public void buildWalls() {
-        house.setWall("高楼的墙壁");
-        house.setHight("1000M");
+        house.setWall("普通房子的墙壁");
+        house.setHight("10M");
     }
 
     @Override
     public void buildRoofed() {
-        house.setRoof("高楼的屋顶");
+        house.setRoof("普通房子的屋顶");
     }
 
     @Override

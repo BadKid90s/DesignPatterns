@@ -1,9 +1,16 @@
-package com.wry.builder;
+package com.wry.builder.type1;
 
+/**
+ * 房子
+ */
 public class House {
+    //名称
     private String name;
+    //高度
     private String hight;
+    //墙壁
     private String wall;
+    //屋顶
     private String roof;
 
     public String getName() {

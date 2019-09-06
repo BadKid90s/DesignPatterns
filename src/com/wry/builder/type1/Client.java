@@ -1,4 +1,4 @@
-package com.wry.builder;
+package com.wry.builder.type1;
 
 public class Client {
     public static void main(String[] args) {

@@ -1,13 +1,12 @@
-package com.wry.builder;
+package com.wry.builder.type1;
 
+/**
+ * 指挥者
+ */
 public class HouseDirecter {
     private IHouseBuilder houseBuilder;
 
     public HouseDirecter(IHouseBuilder houseBuilder) {
-        this.houseBuilder = houseBuilder;
-    }
-
-    public void setHouseBuilder(IHouseBuilder houseBuilder) {
         this.houseBuilder = houseBuilder;
     }
 

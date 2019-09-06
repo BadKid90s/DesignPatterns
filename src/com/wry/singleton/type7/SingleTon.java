@@ -3,7 +3,7 @@ package com.wry.singleton.type7;
 //枚举
 public enum  SingleTon {
     INSTAANCE;
-    //私有化构造器
+
     public void sayOK(){
         System.out.println("ok");
     }
