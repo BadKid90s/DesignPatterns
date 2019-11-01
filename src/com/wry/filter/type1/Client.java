@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Client {
    public static void main(String[] args) {
-      List<Person> persons = new ArrayList<Person>();
+      List<Person> persons = new ArrayList<>();
  
       persons.add(new Person("Robert","Male", "Single"));
       persons.add(new Person("John","Male", "Married"));
