@@ -1,4 +1,4 @@
-package com.wry.principle.singeresponsibiliy;
+package com.wry.principle.singeresponsibiliy.vehicle;
 
 public class SingleResponsibiliy3 {
 
