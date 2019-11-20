@@ -1,4 +1,4 @@
-package com.wry.principle.openclose.improve;
+package com.wry.principle.openclose.improve.type1;
 
 public class OCP {
     public static void main(String[] args) {
