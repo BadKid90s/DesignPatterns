@@ -1,4 +1,6 @@
-package com.wry.principle.openclose.form;
+package com.wry.principle.openclose.form.remould;
+
+import com.wry.principle.openclose.form.remould.AbstractButton;
 
 public class RectangleButton extends AbstractButton {
     @Override

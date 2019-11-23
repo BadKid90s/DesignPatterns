@@ -1,4 +1,4 @@
-package com.wry.principle.demeter;
+package com.wry.principle.demeter.improve.primeval;
 
 import java.util.ArrayList;
 import java.util.List;

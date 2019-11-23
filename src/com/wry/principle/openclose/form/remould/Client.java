@@ -1,9 +1,5 @@
 package com.wry.principle.openclose.form.remould;
 
-import com.wry.principle.openclose.form.AbstractButton;
-import com.wry.principle.openclose.form.CircleButton;
-import com.wry.principle.openclose.form.RectangleButton;
-import com.wry.principle.openclose.form.WinForms;
 
 public class Client {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.wry.principle.openclose.form;
+package com.wry.principle.openclose.form.remould;
 
 public class WinForms {
 
