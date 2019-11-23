@@ -1,4 +1,4 @@
-package com.wry.principle.singeresponsibiliy.vehicle;
+package com.wry.principle.singeresponsibiliy.vehicle.primeval;
 
 public class SingleResponsibiliy1 {
 
@@ -10,9 +10,3 @@ public class SingleResponsibiliy1 {
     }
 }
 
-//违反职责单一原则
-class  Vehicel {
-    public void run(String cehicel) {
-        System.out.println(cehicel + "在公路上跑");
-    }
-}

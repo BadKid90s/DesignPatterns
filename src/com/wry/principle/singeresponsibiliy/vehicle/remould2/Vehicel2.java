@@ -1,16 +1,7 @@
-package com.wry.principle.singeresponsibiliy.vehicle;
+package com.wry.principle.singeresponsibiliy.vehicle.remould2;
 
-public class SingleResponsibiliy3 {
-
-    public static void main(String[] args) {
-        Vehicel2 r = new Vehicel2();
-        r.roadRun("小汽车");
-        r.airRun("飞机");
-        r.waterRun("轮船");
-    }
-}
 //在方法级别实现单一职责
-class Vehicel2 {
+public class Vehicel2 {
     public void roadRun(String cehicel) {
         System.out.println(cehicel + "在公路上跑.....");
     }
