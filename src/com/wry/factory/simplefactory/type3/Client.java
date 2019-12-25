@@ -15,7 +15,7 @@ public class Client {
         chart.display();
         System.out.println("---------------通过配置-----------------");
         //读取配置文件中的参数
-        String type = XMLUtil.getChartType((Client.class).getResource("").getPath(),"config.xml","chartType");
+        String type = XMLUtil.getNodeElementContent((Client.class).getResource("").getPath(),"config.xml","chartType");
         chart = ChartFactory.getChart(type);
         Calendar c = Calendar.getInstance();
     }
