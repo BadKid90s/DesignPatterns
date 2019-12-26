@@ -5,7 +5,7 @@ import com.wry.factory.methodfactory.type2.factory.LoggerFactory;
 import com.wry.factory.methodfactory.type2.product.Logger;
 import com.wry.utils.XMLUtil;
 
-class Client {
+public class Client {
 	public static void main(String args[]) {
 		LoggerFactory factory;
 		Logger logger;

@@ -4,6 +4,7 @@ import com.wry.factory.simplefactory.type3.chart.Chart;
 import com.wry.factory.simplefactory.type3.factory.ChartFactory;
 import com.wry.utils.XMLUtil;
 
+import java.util.ArrayList;
 import java.util.Calendar;
 
 public class Client {
@@ -18,5 +19,6 @@ public class Client {
         String type = XMLUtil.getNodeElementContent((Client.class).getResource("").getPath(),"config.xml","chartType");
         chart = ChartFactory.getChart(type);
         Calendar c = Calendar.getInstance();
+
     }
 }
