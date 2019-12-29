@@ -51,7 +51,7 @@ class CollegeManager {
         return list;
     }
 
-   public void printEmployee() {
+    public void printEmployee() {
         List<CollegeEmployee> allEmployee = getAllEmployee();
         for (CollegeEmployee employee : allEmployee) {
             System.out.println("学院员工" + employee.getId());

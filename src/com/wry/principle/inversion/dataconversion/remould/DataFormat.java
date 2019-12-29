@@ -1,6 +1,6 @@
 package com.wry.principle.inversion.dataconversion.remould;
 
-public  class DataFormat extends DataConversion {
+public class DataFormat extends DataConversion {
     private String data;
 
     public DataFormat() {

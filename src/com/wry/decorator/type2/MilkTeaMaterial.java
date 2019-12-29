@@ -19,6 +19,7 @@ public abstract class MilkTeaMaterial implements DrinkMilkTea {
     public float getTotalPrice() {
         return drinkMilkTea.getTotalPrice();
     }
+
     //重新顶层接口的获取使用材料方法
     @Override
     public String useMaterial() {

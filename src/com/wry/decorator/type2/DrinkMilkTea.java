@@ -6,6 +6,7 @@ package com.wry.decorator.type2;
 public interface DrinkMilkTea {
     //总共花了多少钱
     float getTotalPrice();
+
     //这杯奶茶使用了什么材料
     String useMaterial();
 }

@@ -7,6 +7,7 @@ public class SingleTon {
     }
 
     private static SingleTon instance;
+
     //提供一个静态方法当使用方法时创建对象
     public static SingleTon getInstance() {
         if (instance == null) {

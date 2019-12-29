@@ -87,25 +87,30 @@ class A {
         i.operation1();
 
     }
+
     public void depend2(Interface1 i) {
         i.operation2();
 
     }
+
     public void depend3(Interface1 i) {
         i.operation3();
 
     }
 }
+
 //C类通过接口Interface1 依赖（使用）D类，但只使用1，4，5
 class C {
     public void depend1(Interface1 i) {
         i.operation1();
 
     }
+
     public void depend4(Interface1 i) {
         i.operation4();
 
     }
+
     public void depend5(Interface1 i) {
         i.operation5();
 

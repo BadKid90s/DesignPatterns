@@ -19,11 +19,12 @@ public class ProxyFactory implements MethodInterceptor {
 
     /**
      * 获取代理对象
+     *
      * @return
      */
     public Object getProxyInstance() {
         //1.创建一个工具类
-        Enhancer enhancer=new Enhancer();
+        Enhancer enhancer = new Enhancer();
         //2.设置父类
         enhancer.setSuperclass(tearget.getClass());
         //3.设置回调函数

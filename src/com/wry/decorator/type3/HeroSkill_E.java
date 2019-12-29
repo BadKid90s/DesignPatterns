@@ -1,4 +1,5 @@
 package com.wry.decorator.type3;
+
 /**
  * 具体的装饰类
  */

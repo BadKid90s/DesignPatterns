@@ -10,34 +10,37 @@ import com.wry.factory.abstractfactory.type2.mouse.Mouse;
 public class FactoryClient {
     public static void main(String[] args) {
         //Dell
-        Mouse mouse= getMouse(new DellFactory());
+        Mouse mouse = getMouse(new DellFactory());
         mouse.sayHi();
-        Keyboard keyboard= getKeyboard(new DellFactory());
+        Keyboard keyboard = getKeyboard(new DellFactory());
         keyboard.sayHi();
 
         //HP
-        Mouse mouse2= getMouse(new HPFactory());
+        Mouse mouse2 = getMouse(new HPFactory());
         mouse2.sayHi();
-        Keyboard keyboard2= getKeyboard(new HPFactory());
+        Keyboard keyboard2 = getKeyboard(new HPFactory());
         keyboard2.sayHi();
     }
 
     /**
      * 获取鼠标实例
+     *
      * @param pcFactory
      * @return
      */
-    public static Mouse getMouse(PcFactory pcFactory){
+    public static Mouse getMouse(PcFactory pcFactory) {
         Mouse mouse = pcFactory.createMouse();
-        return  mouse;
+        return mouse;
     }
+
     /**
      * 获取键盘实例
+     *
      * @param pcFactory
      * @return
      */
-    public static Keyboard getKeyboard(PcFactory pcFactory){
+    public static Keyboard getKeyboard(PcFactory pcFactory) {
         Keyboard keyboard = pcFactory.createKeyboard();
-        return  keyboard;
+        return keyboard;
     }
 }

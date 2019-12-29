@@ -1,6 +1,6 @@
 package com.wry.decorator.type3;
 
-public class Timor  extends AssassinHero{
+public class Timor extends AssassinHero {
 
     public Timor() {
         super("提莫");
@@ -8,6 +8,6 @@ public class Timor  extends AssassinHero{
 
     @Override
     public String laernSkill() {
-        return  "姓名："+super.name+"\t 类型："+super.heroType+"\t 学会的技能：";
+        return "姓名：" + super.name + "\t 类型：" + super.heroType + "\t 学会的技能：";
     }
 }

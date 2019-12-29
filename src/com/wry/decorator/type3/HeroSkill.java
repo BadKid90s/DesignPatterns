@@ -17,6 +17,6 @@ public class HeroSkill implements Hero {
 
     @Override
     public String laernSkill() {
-       return hero.laernSkill();
+        return hero.laernSkill();
     }
 }

@@ -8,7 +8,7 @@ public class VoltageAdapter extends Voltage220V implements Voltage5V {
     @Override
     public int outPut5V() {
         int voltage = outPut220();
-        int dst=voltage/44;
+        int dst = voltage / 44;
         return dst;
     }
 }

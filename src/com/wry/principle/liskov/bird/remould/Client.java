@@ -1,7 +1,6 @@
 package com.wry.principle.liskov.bird.remould;
 
 
-
 public class Client {
     public static void main(String[] args) {
         Animal bird1 = new Bird();

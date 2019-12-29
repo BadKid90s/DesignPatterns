@@ -7,7 +7,7 @@ public class Demeter1 {
 
     public static void main(String[] args) {
 
-        SchoolManage manage=new SchoolManage();
+        SchoolManage manage = new SchoolManage();
         manage.printAllEmployee(new CollegeManager());
     }
 
@@ -51,6 +51,7 @@ class CollegeManager {
         return list;
     }
 }
+
 //直接朋友
 //Employee、CollegeManager
 //陌生朋友

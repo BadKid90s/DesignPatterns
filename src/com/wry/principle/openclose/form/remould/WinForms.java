@@ -8,7 +8,7 @@ public class WinForms {
         this.button = button;
     }
 
-    public void display(){
+    public void display() {
         System.out.println("----------窗体---------");
         button.display();
         System.out.println("----------窗体---------");

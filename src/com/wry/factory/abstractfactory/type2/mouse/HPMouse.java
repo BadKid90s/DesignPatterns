@@ -6,7 +6,7 @@ package com.wry.factory.abstractfactory.type2.mouse;
 public class HPMouse extends Mouse {
 
     @Override
-   public void sayHi() {
+    public void sayHi() {
         System.out.println("这是HP（惠普）的鼠标");
     }
 }

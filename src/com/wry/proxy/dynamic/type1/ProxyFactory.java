@@ -17,9 +17,10 @@ public class ProxyFactory {
 
     /**
      * 获取代理对象
+     *
      * @return
      */
-    public Object getProxyInstance(){
+    public Object getProxyInstance() {
         /**
          *  Proxy.newProxyInstance(
          *  目标（被代理）对象使用的类加载器，
