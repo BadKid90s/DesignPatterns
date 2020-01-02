@@ -2,12 +2,12 @@ package com.wry.singleton.type1;
 
 //饿汉模式
 public class SingleTon {
+    //本类内部创建实例
+    private final static SingleTon instance = new SingleTon();
+
     //私有化构造器
     private SingleTon() {
     }
-
-    //本类内部创建实例
-    private final static SingleTon instance = new SingleTon();
 
     //提供共有的方法
     public static SingleTon getInstance() {

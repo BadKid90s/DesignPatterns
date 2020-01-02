@@ -1,7 +1,5 @@
 package com.wry.proxy.cglib.type1;
 
-
-
 public class Client {
     public static void main(String[] args) {
         //创建目标对象

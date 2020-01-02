@@ -4,13 +4,15 @@ package com.wry.builder.type2;
  * 抽象 Builder
  */
 public abstract class Builder {
+    protected  Computer computer;
 
-    abstract void buildBoard(String board);
+    abstract void buildBoard();
 
-    abstract void buildDisplay(String display);
+    abstract void buildDisplay();
 
     abstract void buildOs();
 
-    abstract Computer build();
-
+    public Computer getResult(){
+        return computer;
+    }
 }

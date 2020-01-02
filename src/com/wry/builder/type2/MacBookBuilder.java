@@ -5,25 +5,20 @@ package com.wry.builder.type2;
  */
 public class MacBookBuilder extends Builder {
 
-    private Computer mComputer = new MacBook();
-
     @Override
-    void buildBoard(String board) {
-        mComputer.setBoard(board);
+    void buildBoard() {
+        computer.setBoard("英特尔主板");
     }
 
     @Override
-    void buildDisplay(String display) {
-        mComputer.setDisplay(display);
+    void buildDisplay() {
+        computer.setDisplay("Retina显示器");
     }
 
     @Override
     void buildOs() {
-        mComputer.setOs();
+        computer.setOs();
     }
 
-    @Override
-    Computer build() {
-        return mComputer;
-    }
+
 }
