@@ -9,11 +9,11 @@ public class Decorator extends Drink {
 
     @Override
     public float getCost() {
-        return drink.getCost()+getPrice();
+        return drink.getCost() + getPrice();
     }
 
     @Override
     public String getDescription() {
-        return drink.getDescription()+"-------"+getDesc();
+        return drink.getDescription() + "-------" + getDesc();
     }
 }

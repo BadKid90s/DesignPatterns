@@ -10,12 +10,14 @@ import com.wry.factory.abstractfactory.type2.mouse.Mouse;
 public interface PcFactory {
     /**
      * 创建鼠标
+     *
      * @return
      */
     Mouse createMouse();
 
     /**
      * 创建键盘
+     *
      * @return
      */
     Keyboard createKeyboard();

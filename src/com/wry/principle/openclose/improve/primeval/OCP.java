@@ -18,8 +18,8 @@ class GraphicEditor {
 
 }
 
-abstract class  Shape {
-   abstract void draw();
+abstract class Shape {
+    abstract void draw();
 }
 
 class Rectangle extends Shape {
@@ -46,7 +46,7 @@ class Triangle extends Shape {
     }
 }
 
-class OtherGraphic extends Shape{
+class OtherGraphic extends Shape {
 
     @Override
     void draw() {

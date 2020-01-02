@@ -13,12 +13,14 @@ public interface ITearcherDao {
 
     /**
      * 计算学生数量
+     *
      * @return
      */
     int studentNumber();
 
     /**
      * 获取学生
+     *
      * @return
      */
     List<String> getStudent();

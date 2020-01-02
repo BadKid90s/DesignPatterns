@@ -1,10 +1,10 @@
 package com.wry.singleton.type7;
 
 //枚举
-public enum  SingleTon {
+public enum SingleTon {
     INSTAANCE;
 
-    public void sayOK(){
+    public void sayOK() {
         System.out.println("ok");
     }
 

@@ -2,12 +2,12 @@ package com.wry.principle.segreations.inter.remould;
 
 public class Segreation2 {
     public static void main(String[] args) {
-        A2 a=new A2();
+        A2 a = new A2();
         a.depend1(new B2());
         a.depend2(new B2());
         a.depend3(new B2());
 
-        C2 c=new C2();
+        C2 c = new C2();
         c.depend1(new D2());
         c.depend4(new D2());
         c.depend5(new D2());
@@ -33,7 +33,8 @@ interface Interface2_4 {
 interface Interface2_5 {
     void operation5();
 }
-class B2 implements Interface2_1,Interface2_2,Interface2_3 {
+
+class B2 implements Interface2_1, Interface2_2, Interface2_3 {
     @Override
     public void operation1() {
         System.out.println("B :1");
@@ -54,12 +55,11 @@ class B2 implements Interface2_1,Interface2_2,Interface2_3 {
 
 }
 
-class D2 implements Interface2_1, Interface2_4,Interface2_5{
+class D2 implements Interface2_1, Interface2_4, Interface2_5 {
     @Override
     public void operation1() {
         System.out.println("D :1");
     }
-
 
 
     @Override
@@ -81,11 +81,13 @@ class A2 {
         i.operation1();
 
     }
+
     public void depend2(Interface2_2 i) {
         i.operation2();
 
     }
-    public void depend3(Interface2_3  i) {
+
+    public void depend3(Interface2_3 i) {
         i.operation3();
 
     }
@@ -97,10 +99,12 @@ class C2 {
         i.operation1();
 
     }
+
     public void depend4(Interface2_4 i) {
         i.operation4();
 
     }
+
     public void depend5(Interface2_5 i) {
         i.operation5();
 

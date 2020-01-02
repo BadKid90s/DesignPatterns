@@ -10,7 +10,8 @@ import com.wry.factory.simplefactory.type2.mouse.Mouse;
 public class MouseFactory {
 
     /**
-     *  创建鼠标
+     * 创建鼠标
+     *
      * @param i 0:Dell鼠标 1：HP 鼠标
      * @return
      */

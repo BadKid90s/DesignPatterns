@@ -1,4 +1,5 @@
 package com.wry.decorator.type3;
+
 /**
  * 具体的装饰类
  */
@@ -10,7 +11,7 @@ public class HeroSkill_R extends HeroSkill {
 
     @Override
     public String laernSkill() {
-        System.out.println("学习了R技能:"+name);
+        System.out.println("学习了R技能:" + name);
         return super.laernSkill() + "\t" + name;
 
     }

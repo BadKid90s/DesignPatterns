@@ -12,7 +12,7 @@ public class HeroSkill_Q extends HeroSkill {
 
     @Override
     public String laernSkill() {
-        System.out.println("学习了Q技能:"+name);
+        System.out.println("学习了Q技能:" + name);
         return super.laernSkill() + "\t" + name;
 
     }

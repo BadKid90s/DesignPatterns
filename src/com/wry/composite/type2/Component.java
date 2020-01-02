@@ -7,14 +7,14 @@ package com.wry.composite.type2;
  * 相比透明模式就少了add()和romove()抽象方法的声明。
  */
 public abstract class Component {
-    
+
     protected String name;
-    
+
     public Component(String name) {
         this.name = name;
     }
 
     //获取分支下的所有叶子构件和树枝构件
     public abstract void display(int depth);
-    
+
 }

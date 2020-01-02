@@ -7,7 +7,7 @@ public class Car {
         this.color = color;
     }
 
-    public void move(){
+    public void move() {
         System.out.println("------汽油汽车-----");
     }
 }

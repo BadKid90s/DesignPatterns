@@ -7,5 +7,4 @@ package com.wry.principle.liskov.bird.remould;
 public class BrownKiwi extends Animal {
 
 
-
 }

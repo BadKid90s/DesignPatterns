@@ -12,8 +12,8 @@ public abstract class Computer {
     protected String mOs;
 
 
-    public void setBoard(String board){
-        mBoard=board;
+    public void setBoard(String board) {
+        mBoard = board;
     }
 
     public void setDisplay(String display) {
@@ -21,7 +21,7 @@ public abstract class Computer {
     }
 
 
-    public abstract void setOs() ;
+    public abstract void setOs();
 
 
     @Override

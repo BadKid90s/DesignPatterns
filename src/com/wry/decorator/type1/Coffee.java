@@ -4,7 +4,7 @@ public class Coffee extends Drink {
 
     @Override
     public float getCost() {
-        return super.getPrice() ;
+        return super.getPrice();
     }
 
     @Override

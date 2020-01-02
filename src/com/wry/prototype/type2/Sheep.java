@@ -5,7 +5,7 @@ import java.io.*;
 /**
  * 实现Cloneable接口重新克隆方法.实现Serializable接口实现序列化
  */
-public class Sheep implements Serializable,Cloneable {
+public class Sheep implements Serializable, Cloneable {
     private String name;
     private int age;
     private String color;
@@ -142,7 +142,7 @@ public class Sheep implements Serializable,Cloneable {
     }
 }
 
-class Grass  implements Serializable{
+class Grass implements Serializable {
     private String name;
     private String color;
 

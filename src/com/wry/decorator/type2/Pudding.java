@@ -12,11 +12,12 @@ public class Pudding extends MilkTeaMaterial {
     //重新父类计算价格的方法，在原本的基础上增加布丁的价格
     @Override
     public float getTotalPrice() {
-        return super.getTotalPrice()+2;
+        return super.getTotalPrice() + 2;
     }
+
     //重新父类使用材料的方法，在原本的基础上增加布丁
     @Override
     public String useMaterial() {
-        return super.useMaterial()+"--------布丁";
+        return super.useMaterial() + "--------布丁";
     }
 }

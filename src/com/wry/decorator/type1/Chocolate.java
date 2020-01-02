@@ -1,6 +1,6 @@
 package com.wry.decorator.type1;
 
-public class Chocolate extends Decorator{
+public class Chocolate extends Decorator {
 
     public Chocolate(Drink drink) {
         super(drink);

@@ -5,6 +5,6 @@ package com.wry.principle.inversion.dataconversion.primeval;
  */
 public class DataConversion {
     public XmlData conversionData(DatabaseSource source) {
-        return new XmlData(source.getData()+"\t 转换为XML 数据");
+        return new XmlData(source.getData() + "\t 转换为XML 数据");
     }
 }

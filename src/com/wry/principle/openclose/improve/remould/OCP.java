@@ -16,7 +16,7 @@ class GraphicEditor {
             drawRectangle(shape);
         } else if (shape.m_type == 2) {
             drawCircle(shape);
-        }else if (shape.m_type==3){
+        } else if (shape.m_type == 3) {
             drawTriangle(shape);
         }
     }
@@ -28,6 +28,7 @@ class GraphicEditor {
     public void drawCircle(Shape r) {
         System.out.println("圆形");
     }
+
     public void drawTriangle(Shape r) {
         System.out.println("三角形");
     }
