@@ -1,4 +1,4 @@
-package com.wry.patterns.type1;
+package com.wry.patterns.filter.type1;
 
 import java.util.ArrayList;
 import java.util.List;
