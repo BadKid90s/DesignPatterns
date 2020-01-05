@@ -1,5 +1,0 @@
-<?xml version="1.0"?>
-
-<config>
-    <className>com.wry.factory.methodfactory.type2.factory.FileLoggerFactory</className>
-</config>
