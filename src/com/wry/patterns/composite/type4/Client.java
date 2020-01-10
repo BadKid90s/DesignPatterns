@@ -1,6 +1,9 @@
 package com.wry.patterns.composite.type4;
 
 
+/**
+ * @author Mi
+ */
 public class Client {
     public static void main(String[] args) {
 
