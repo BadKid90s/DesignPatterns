@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<config>
+    <imageFormartClassName>com.wry.patterns.bridge.type3.PNGImage</imageFormartClassName>
+    <imageSystemClassName>com.wry.patterns.bridge.type3.LinuxImp</imageSystemClassName>
+</config>
