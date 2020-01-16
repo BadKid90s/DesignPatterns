@@ -1,0 +1,25 @@
+package com.wry.patterns.facade.type1;
+
+/**
+ * 屏幕类
+ */
+public class Screen {
+
+    private static Screen instance = new Screen();
+
+    private Screen() {
+    }
+
+    public static Screen getInstance() {
+        return instance;
+    }
+
+    public void up() {
+        System.out.println("Screen up");
+    }
+
+    public void down() {
+        System.out.println("Screen down");
+    }
+
+}
