@@ -5,7 +5,7 @@ package com.wry.patterns.proxy.staticproxy.type1;
  */
 public class TearcherProxy implements ITearcherDao {
     //目标对象（以聚合的方式）
-    ITearcherDao tearget;
+    private ITearcherDao tearget;
 
     //通过构造器赋值
     public TearcherProxy(ITearcherDao tearget) {
